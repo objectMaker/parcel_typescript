@@ -23,6 +23,7 @@ abstract class tempAbstractClass implements abstractInterface {
   abstract showFace(): void;
 }
 
+//抽象方法部分实现
 class finalAbstractClass extends tempAbstractClass{
     showFace(): void {
         throw new Error("Method not implemented.");
